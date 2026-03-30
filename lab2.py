@@ -1,4 +1,4 @@
-def bai_1():
+def bai_tap():
     import pandas as pd
     df=pd.read_csv("ITA105_Lab_2_Housing.csv")
     print("Kích thước dữ liệu:",{df.shape})
@@ -118,7 +118,7 @@ def bai_1():
     sns.scatterplot(x=df_clean['dien_tich'], y=df_clean['gia'])
     plt.title("Mối quan hệ Diện tích - Giá")
     plt.show()
-bai_1()
+bai_tap()
 
 
 
