@@ -121,10 +121,6 @@ def bai_tap():
 bai_tap()
 
 
-ka
-
-
-
 
 
 
