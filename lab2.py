@@ -118,10 +118,12 @@ def bai_tap():
     sns.scatterplot(x=df_clean['dien_tich'], y=df_clean['gia'])
     plt.title("Mối quan hệ Diện tích - Giá")
     plt.show()
+
+    print("Biểu đồ:",df_clean)
 bai_tap()
 
 
-
+print("Biều đồ:",df_clean)
 
 
 
